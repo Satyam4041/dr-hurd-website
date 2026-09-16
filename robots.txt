@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /thank-you.html
+
+# XML Sitemap
+Sitemap: https://www.nyneurofeedback.com/sitemap.xml

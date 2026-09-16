@@ -9,30 +9,104 @@
   <meta property="og:site_name" content="NY Neurofeedback and QEEG" />
   <meta property="og:title" content="NY Neurofeedback and QEEG | Personalized Brain Wellness Care" />
   <meta property="og:description" content="Personalized psychology, QEEG brain mapping, neurofeedback, and brain wellness care in New York City." />
-  <meta property="og:image" content="assets/hero-neurofeedback.png" />
+  <meta property="og:image" content="https://www.nyneurofeedback.com/assets/hero-neurofeedback.png" />
+  <meta property="og:url" content="https://www.nyneurofeedback.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NY Neurofeedback and QEEG | Personalized Brain Wellness Care" />
+  <meta name="twitter:description" content="Personalized psychology, QEEG brain mapping, neurofeedback, and brain wellness care in New York City." />
+  <meta name="twitter:image" content="https://www.nyneurofeedback.com/assets/hero-neurofeedback.png" />
+  <link rel="canonical" href="https://www.nyneurofeedback.com/" />
   <link rel="stylesheet" href="index.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
-    "name": "NY Neurofeedback and QEEG",
-    "telephone": "+1-917-405-8168",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "928 Broadway #305",
-      "addressLocality": "New York",
-      "addressRegion": "NY",
-      "postalCode": "10010",
-      "addressCountry": "US"
-    },
-    "sameAs": [
-      "https://www.facebook.com/profile.php?id=61589301571439",
-      "https://www.linkedin.com/in/merlyn-hurd-phd-0a02109/",
-      "https://www.instagram.com/nyneurofeedback2026/"
+    "@graph": [
+      {
+        "@type": ["MedicalBusiness", "LocalBusiness"],
+        "@id": "https://www.nyneurofeedback.com/#organization",
+        "name": "NY Neurofeedback and QEEG",
+        "url": "https://www.nyneurofeedback.com/",
+        "logo": "https://www.nyneurofeedback.com/assets/Logo-transparent.png",
+        "image": "https://www.nyneurofeedback.com/assets/hero-neurofeedback.png",
+        "telephone": "+1-917-405-8168",
+        "priceRange": "$$$",
+        "currenciesAccepted": "USD",
+        "paymentAccepted": "Credit Card, FSA, HSA",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "928 Broadway Suite 305",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10010",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 40.7394314,
+          "longitude": -73.9894175
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        ],
+        "medicalSpecialty": [
+          "https://schema.org/Psychology",
+          "https://schema.org/Neurology"
+        ],
+        "founder": {
+          "@type": "Person",
+          "@id": "https://www.nyneurofeedback.com/#merlyn-hurd",
+          "name": "Dr. Merlyn Hurd, PhD",
+          "jobTitle": "Licensed Psychologist & QEEG Diplomate (QEEG-D)",
+          "worksFor": { "@id": "https://www.nyneurofeedback.com/#organization" }
+        },
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61589301571439",
+          "https://www.linkedin.com/in/merlyn-hurd-phd-0a02109/",
+          "https://www.instagram.com/nyneurofeedback2026/"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Clinical Brain Wellness Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "MedicalProcedure",
+                "name": "Clinical Consultation",
+                "description": "Comprehensive one-on-one diagnostic consultation and symptom history review."
+              },
+              "price": "350",
+              "priceCurrency": "USD"
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "MedicalProcedure",
+                "name": "qEEG Brain Mapping",
+                "description": "Multi-channel quantitative EEG recording with FDA-registered normative database comparison."
+              },
+              "price": "1200",
+              "priceCurrency": "USD"
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.nyneurofeedback.com/#website",
+        "url": "https://www.nyneurofeedback.com/",
+        "name": "NY Neurofeedback and QEEG",
+        "publisher": { "@id": "https://www.nyneurofeedback.com/#organization" }
+      }
     ]
   }
   </script>
-+  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DL3V0PG2BQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
