@@ -83,7 +83,7 @@
   <!-- Educational Blog & Articles -->
   <url>
     <loc>https://www.nyneurofeedback.com/blog.html</loc>
-    <lastmod>2026-09-16</lastmod>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -102,6 +102,24 @@
   <url>
     <loc>https://www.nyneurofeedback.com/blog-3.html</loc>
     <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nyneurofeedback.com/blog-4.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nyneurofeedback.com/blog-5.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nyneurofeedback.com/blog-6.html</loc>
+    <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
