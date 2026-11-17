@@ -137,7 +137,25 @@
   </url>
   <url>
     <loc>https://www.nyneurofeedback.com/blog-9.html</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nyneurofeedback.com/blog-10.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nyneurofeedback.com/blog-11.html</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.nyneurofeedback.com/blog-12.html</loc>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
